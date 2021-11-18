@@ -7,4 +7,4 @@ a Krunker UI Theme by tae.
 
 ## License
 
-GPL 3.0
+None :)
