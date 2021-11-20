@@ -161,6 +161,10 @@
     display: none;
 }
 
+#rankedSoonTm {
+    display: none;
+}
+
 /*Headerbar*/
 
 .headerBar [style*="block"] {
@@ -554,12 +558,20 @@
 
 /*Login*/
 
-.accountInput {
-    border-radius: 0;
+#referralHeader {
+    color: #fff !important;
 }
 
-.accountButton {
-    border-radius: 0;
+.accountInput {
+    background-color: rgba(0,0,0,0.12);
+    color: #353535;
+}
+
+.accBtn {
+    background-color: var(--blue) !important;
+    text-shadow: none !important;
+    color: #fff !important;
+    width: calc(50% - 25px);
 }
 
 /*Loadout Select*/
