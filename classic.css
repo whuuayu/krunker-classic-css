@@ -358,7 +358,7 @@
 
 .button.small {
     padding: 1px 13px 12px 12px !important;
-    text-shadow: 0 3px 0 #caa355 !important;
+    text-shadow: 0 5px 0 #caa355 !important;
     background-color: transparent!important;
     box-shadow: none !important;
 }
