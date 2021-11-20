@@ -54,8 +54,13 @@
     display: none;
 }
 
-#loadTipsHolder::after {
+#loadTipsHolder::before {
     content: "css by tae";
+    font-size: 25px;
+}
+
+#loadTipsHolder::after {
+    content: "last updated 11-20-21";
     font-size: 25px;
 }
 
@@ -112,10 +117,15 @@
     bottom: 2px;
 }
 
+#voiceDisplay {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
 #uiBase.onMenu #voiceDisplay {
     left: 350px;
 }
-
 
 /*Section III: Main Menu*/
 
