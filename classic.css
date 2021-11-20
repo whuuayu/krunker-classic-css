@@ -62,6 +62,7 @@
 #loadTipsHolder::after {
     content: "last updated 11-20-21";
     font-size: 25px;
+    display: block;
 }
 
 #instructionsUpdate {
