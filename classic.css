@@ -696,17 +696,8 @@
     background-color: transparent;
     padding: 0;
     border-radius: 0;
-    transition-duration: 0.12s !important;
     filter: none;
     pointer-events: none;
-}
-
-.classCard:hover {
-    color: transparent !important;
-}
-
-.classCard:hover> .classWeap {
-    color: transparent !important;
 }
 
 .classImgC {
@@ -742,26 +733,37 @@
     color: rgba(0,0,0,0.5) !important;
 }
 
+.classCard:hover>.classLvl {
+    opacity: 1;
+
+}
+
 .classLvl {
     top: 0px;
     right: unset;
     left: 100px;
     text-indent: 0;
-    color: rgba(0,0,0,0.5);
+    color: #fff !important;
+    text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020;
+    top: 5px;
+    left: 10px;
+    font-size: 15px;
     opacity: 0;
+    z-index: 2;
     transition-duration: 0.12s;
 }
 
 .classXPBar {
     top: unset;
     bottom: 0px;
-    left: 100px;
-    width: calc(100% - 200px);
+    left: 0;
+    width: 80px;
     border-radius: 0;
     background-color: rgba(0,0,0,0.25);
-    height: 25px;
+    height: 10px;
     opacity: 0;
     transition-duration: 0.12s;
+    z-index: 2;
 }
 
 .classCard:hover>.classXPBar {
@@ -769,8 +771,9 @@
 }
 
 .clsXPBarC {
-    height: 17px;
-    background-color: #fff;
+    height: 8px;
+    background-color: var(--yellow);
+    margin: 0;
 }
 
 #menuWindow[style="overflow-y: auto; width: 877px;"] {
