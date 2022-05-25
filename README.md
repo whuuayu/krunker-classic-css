@@ -1,9 +1,10 @@
 # Krunker Classic
 a Krunker UI Theme by tae.
 
-## Update 2021-11-18
+## Update 2022-5-25
 
-- Added a changelog :^)
+- Changed Class Cards
+- Visual changes to previously unmodified elements to be more inline with older design language
 
 ## License
 
