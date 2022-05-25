@@ -1,4 +1,4 @@
-/*Last Updated 2021-11-20*/
+/*Last Updated 2022-5-24*/
 
 /*Section I: Frame*/
 
@@ -60,7 +60,7 @@
 }
 
 #loadTipsHolder::after {
-    content: "last updated 11-20-21";
+    content: "last updated 2022-5-24";
     font-size: 25px;
     display: block;
 }
@@ -774,6 +774,31 @@
     height: 8px;
     background-color: var(--yellow);
     margin: 0;
+}
+
+.lockedClass {
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.custStreakIconH {
+    pointer-events: all;
+    transform: unset;
+    top: 0;
+    left: unset;
+    right: 0;
+    text-align: right;
+}
+
+.custStreakIcon {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0,0,0,0.25);
+    margin-left: 10px;
 }
 
 #menuWindow[style="overflow-y: auto; width: 877px;"] {
