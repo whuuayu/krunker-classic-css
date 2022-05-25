@@ -378,12 +378,7 @@
     background-color: transparent !important;
 }
 
-#windowCloser {
-    pointer-events: none;
-}
-
 #menuWindow {
-    width: 705px !important;
     top: 50%;
     border-radius: 0;
     max-height: calc(100% - 560px) !important;
