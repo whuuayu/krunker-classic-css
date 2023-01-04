@@ -137,6 +137,10 @@
     content: url(https://i.imgur.com/QMx5AmE.png)!important;
 }
 
+#mainLogoFace {
+    display: none;
+}
+
 #braveWarning {
     display: none !important;
 }
@@ -455,10 +459,10 @@
 }
 
 .pSt {
-    width: -webkit-fill-available;
+    width: -webkit-fill-available !important;
     border: none;
     text-shadow: none !important;
-    font-size: 22px;
+    font-size: 22px !important;
     background-color: transparent;
     text-align: left;
     margin: 0;
@@ -624,12 +628,12 @@
 }
 
 .custContainer {
-    border-radius: 0;
+    display: flex;
     border: none;
     background-color: transparent !important;
     box-shadow: none;
     width: -webkit-fill-available !important;
-    height: 32px;
+    height: max-content !important;
     padding: 0;
     margin: 0;
     margin-top: 3px;
@@ -637,29 +641,68 @@
 }
 
 .custItNm {
-    top: 0;
-    left: 0;
     font-size: 22px;
+    display: inline-block;
+    position: inherit;
+    left: 0;
+    top: 0;
+    text-shadow: none;
 }
 
 .custIcon {
     display: none;
 }
 
+.custSubContainer {
+    position: inherit;
+    display: inline-block;
+    top: 0;
+    bottom: unset;
+    height: 36px;
+    width: 36px;
+    padding: 0;
+    border: none !important;
+    margin-left: 8px;
+    pointer-events: all;
+}
+
+.custSubContainer .custIcon {
+    display: block;
+}
+
+.custSubContainer .custItNm {
+    display: none;
+}
+
+.custSubContainer .selRandom {
+    display: block;
+    font-size: 16px !important;
+    text-shadow: none;
+    transform: translate(-50%,-50%);
+}
+
 .settLabel {
-    right: 0;
-    bottom: 0;
+    right: 0 !important;
+    left: unset !important;
+    bottom: unset;
+    top: 0;
     font-size: 22px;
     text-shadow: none;
     pointer-events: all;
 }
 
-.settLabel[style="color:#efefef"] {
+.settLabel[style*="#efefef"], custLabel[style*="#efefef"] {
     color: rgba(0,0,0,0.5) !important;
 }
 
-.settLabel:hover {
+.settLabel:hover, .custLabel:hover {
     text-decoration: underline;
+}
+
+.custLabel {
+    font-size: 22px;
+    pointer-events: all;
+    text-shadow: none;
 }
 
 .settSmall {
@@ -685,7 +728,6 @@
     width: -webkit-fill-available;
     text-align: unset;
     height: 80px;
-    text-indent: 100px;
     text-shadow: none;
     color: rgba(0,0,0,0.5);
     background-color: transparent;
@@ -693,6 +735,21 @@
     border-radius: 0;
     filter: none;
     pointer-events: none;
+    box-shadow: none;
+}
+
+.className {
+    text-shadow: none;
+    font-size: 24px;
+    top: 0;
+    color: rgba(0,0,0,0.5) !important;
+}
+
+.classWeap {
+    top: unset;
+    bottom: 0;
+    font-size: 20px;
+    color: rgba(0,0,0,0.25) !important;
 }
 
 .classImgC {
@@ -721,11 +778,6 @@
     text-align: center;
     line-height: 80px;
     pointer-events: all;
-}
-
-.classCard:hover>.classLvl {
-    opacity: 1;
-    color: rgba(0,0,0,0.5) !important;
 }
 
 .classCard:hover>.classLvl {
@@ -765,6 +817,10 @@
     opacity: 1;
 }
 
+.clsXPBarV {
+    display: none;
+}
+
 .clsXPBarC {
     height: 8px;
     background-color: var(--yellow);
@@ -790,8 +846,8 @@
 }
 
 .custStreakIcon {
-    height: 40px;
-    width: 40px;
+    height: 36px;
+    width: 36px;
     background-color: rgba(0,0,0,0.25);
     margin-left: 10px;
 }
