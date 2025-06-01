@@ -1515,15 +1515,6 @@ input[type=color] {
     font-size: 32px !important
 }
 
-/*  */
-#instructionHolder,
-#fullMenHider{
-    display: none!important
-}
-
-#inGameUI{
-    display: block!important
-}
 /*Terms*/
 
 #termsInfo {
