@@ -1,4 +1,4 @@
-/*Last Updated 2025-7-21*/
+/*Last Updated 2023-1-4*/
 
 /*Section I: Frame*/
 
@@ -1019,6 +1019,20 @@
     width: 70px;
     padding: 5px;
     background-color: rgba(0,0,0,0.25);
+}
+
+.skinImgP {
+    height: 70px;
+    display: block;
+    width: 70px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    padding: 5px;
+}
+
+.custIconCard {
+    display: none;
 }
 
 .itemOwn {
