@@ -1,11 +1,10 @@
 # Krunker Classic
 a Krunker UI Theme by tae.
 
-## Update 2023-1-4
+## Update 2025-7-21
 
-- Changed Class Cards (again)
-- Changed Profile Information Header to allow thoughtful placement of friends list and battlepass
-- Visual changes to previously unmodified elements to be more inline with older design language
+- Updated element names to current version
+- Updated Game UI to match original dimensions of old UI elements
 
 ## License
 
