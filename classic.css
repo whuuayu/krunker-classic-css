@@ -75,10 +75,6 @@
 
 /*Section II: Chat UI*/
 
-#chatHolder[style="bottom: 148px;"] {
-    bottom: 120px !important;
-}
-
 #uiBase.onMenu #chatHolder {
     left: 20px;
 }
@@ -103,13 +99,6 @@
     margin-left: 0;
 }
 
-#uiBase.onMenu #voiceDisplay {
-    left: 300px;
-}
-
-#voiceDisplay[style="bottom: 145px;"] {
-    bottom: 117px !important;
-}
 
 #chatInputHolder {
     background-color: rgba(0,0,0,0.2);
@@ -132,16 +121,6 @@
     font-size: 17px;
     padding: 10px 0 !important;
     width: -webkit-fill-available;
-}
-
-#voiceDisplay {
-    padding: 0;
-    background-color: transparent;
-    border: none;
-}
-
-#uiBase.onMenu #voiceDisplay {
-    left: 350px;
 }
 
 #chatInputHolder .greyInlineInner, #chatInputHolder .greyInlineInnerMid {
@@ -196,6 +175,11 @@
     border: none;
     padding: 0;
     margin: 0;
+    font-size: 18px;
+}
+
+#mapInfo {
+    font-size: 18px;
 }
 
 #mapInfoHld {
@@ -249,10 +233,6 @@
 
 #mailCount {
     border: none;
-}
-
-.rankClck {
-    display: none;
 }
 
 #menuLvlHold {
@@ -1412,15 +1392,4 @@ input[type=color] {
 
 .standout {
     color: #f6d365;
-}
-
-/*Clients*/
-
-.settingsBtn[onclick="window.gt.showAltMng()"], .settingsBtn[onclick="window.logoutAcc()"] {
-    display: none;
-}
-
-#uiBase.onMenu #LaFWaterMark {
-    bottom: unset !important;
-    top: 400px;
 }
